@@ -1,15 +1,17 @@
-# Vapor Clean
+# Vapor 3 Simple Template
 
-This is a template for Vapor 3 users that does the absolute minimum to set up a working Vapor 3 environment.
+This is a basic template for new Vapor 3 projects, based on Paul Hudson's template at https://github.com/twostraws/vapor-clean
 
-Unlike the official templates that are currently available, this template does not include vast swathes of extra example code that you will always need to delete. Instead, it adds just a single “hello” route so you can be sure everything is working correctly.
+As Paul points out, this is likely the best starting point for most real-world our team will create, as it removes all the sample routes, handlers et al that we always have to remove using Vapor's standard templates.
 
-Although this repository contains a LICENSE file, this is meant for you to replace with whatever license you intend to use – please consider what little code is in this repository as public domain, and yours to do with as you please.
+The License is configured with standard MIT license, with Beezwax as the copyright holder. Update as needed for specific projects.
 
-It’s my hope that the official Vapor project will add a template similar to this one at some point in the future, but until then please use this however you want.
+## Usage
 
-## Try it out
+In the CLI, navigate to the desired parent directory for your project. Then create a new project using the Vapor toolbox:
 
-If you have already installed the Vapor toolbox, you can create a new Vapor project from this repo using the following command:
+``vapor new <ProjectName> --template=beezwax/vapor-3-simple-template``
 
-    vapor new MyProject --template=twostraws/vapor-clean
+As usual, after editing the project ``Package.swift`` file to add any desired dependencies, you'll need to build out assets with ``vapor build``, and then create your Xcode project using ``vapor xcode -y``. 
+
+Finally in Xcode, remember to select the Run schema > MacOS target and then build. From there, just create the Next Great Web App 😎
