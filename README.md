@@ -12,6 +12,6 @@ In the CLI, navigate to the desired parent directory for your project. Then crea
 
 ``vapor new <ProjectName> --template=beezwax/vapor-3-simple-template``
 
-As usual, after editing the project ``Package.swift`` file to add any desired dependencies,  build out the Vapor project assets with ``vapor build``, then create your Xcode project using ``vapor xcode -y``. 
+As usual, cd into the new project directory and if needed, edit the project ``Package.swift`` file to add any desired dependencies. Thenbuild out the Vapor project assets with ``vapor build``, and create your Xcode project using ``vapor xcode -y``.
 
 Last, in Xcode remember to select the "Run" schema > "MacOS" target and then build the project in Xcode. From there, you'll just need to create the Next Great Web App 😎
