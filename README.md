@@ -2,16 +2,16 @@
 
 This is a basic template for new Vapor 3 projects, based on Paul Hudson's template at https://github.com/twostraws/vapor-clean
 
-As Paul points out, this is likely the best starting point for most real-world our team will create, as it removes all the sample routes, handlers et al that we always have to remove using Vapor's standard templates.
+As Paul points out, this template offers a clean starting point for most real-world our team will create. It removes all the sample routes, handlers and other cruft that we always have to manually remove if we use one of Vapor's official templates.
 
-The License is configured with standard MIT license, with Beezwax as the copyright holder. Update as needed for specific projects.
+The License is preconfigured with a standard MIT license and "Beezwax Datatools, Inc." as the copyright holder. 
 
 ## Usage
 
-In the CLI, navigate to the desired parent directory for your project. Then create a new project using the Vapor toolbox:
+In the CLI, navigate to the desired parent directory for your project. Then create a new project with the Vapor toolbox:
 
 ``vapor new <ProjectName> --template=beezwax/vapor-3-simple-template``
 
-As usual, after editing the project ``Package.swift`` file to add any desired dependencies, you'll need to build out assets with ``vapor build``, and then create your Xcode project using ``vapor xcode -y``. 
+As usual, after editing the project ``Package.swift`` file to add any desired dependencies,  build out the Vapor project assets with ``vapor build``, then create your Xcode project using ``vapor xcode -y``. 
 
-Finally in Xcode, remember to select the Run schema > MacOS target and then build. From there, just create the Next Great Web App 😎
+Last, in Xcode remember to select the "Run" schema > "MacOS" target and then build the project in Xcode. From there, you'll just need to create the Next Great Web App 😎
