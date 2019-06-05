@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/brian/Dropbox/Projects/Vapor3_SimpleTemplate/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include"
+    export *
+}
